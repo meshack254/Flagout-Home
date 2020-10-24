@@ -1,0 +1,219 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+body {
+
+  background-color: RGB(0 0 0 0.3);
+
+  background-size: cover;
+
+  background-repeat: no-repeat;
+
+  display: block;
+
+  padding: 0;
+
+  margin: 0;
+
+}
+
+.nav {
+
+  background: #35424a;
+
+  color: #ffffff;
+
+  padding-top: 5px;
+
+  border-bottom: #ff4500 5px solid;
+
+  min-height: 70px;
+
+  text-align: center;
+
+  margin: auto;
+
+  width: 100%;
+
+  font-family: 'Nunito', sans-serif;
+
+}
+
+header {
+
+  padding-bottom: 20px;
+
+}
+
+.btn {
+
+  background-color: #35424a;
+
+  color: white;
+
+  padding: 5px;
+
+  text-align: center;
+
+  text-decoration: none;
+
+  border-radius: 6px;
+
+  font: 18px  'Nunito', sans-serif;
+
+  margin-top: 30px;
+
+  margin-right: 20px;
+
+  cursor: pointer;
+
+}
+
+#current {
+
+  color: #ff4500;
+
+}
+
+.highlight {
+
+  color: #ff4500;
+
+}
+
+.heading {
+
+  font-size: 30px;
+
+  margin: auto;
+
+  overflow: hidden;
+
+}
+
+.style {
+
+  background-color: #fff;
+
+  position: absolute;
+
+}
+
+.left-panel li {
+
+  font-family: 'Nunito', sans-serif;
+
+  font-size: 100px;
+
+}
+
+#bar {
+
+  height: 4px;
+
+  width: 30px;
+
+  background-color: #ff4500;
+
+  border-radius: 6px;
+
+  position: absolute;
+
+}
+
+.bar0 {
+
+  margin: 8px 9px;
+
+}
+
+.bar1 {
+
+  margin: 17px 9px;
+
+}
+
+.bar2 {
+
+  margin: 26px 9px;
+
+}
+
+.fb {
+
+  color: #003dff;
+
+}
+
+.ig {
+
+  color: #bf00ff;
+
+}
+
+.twitter {
+
+  color: #0099ff;
+
+}
+
+/*media queries*/
+
+@media only screen and (min-width: 768px) {
+
+  #image {
+
+    background-size: cover;
+
+    background-repeat: no-repeat;
+
+    height: 900px;
+
+    display: table-cell;
+
+    width: 800px;
+
+  }
+
+  .heading {
+
+    float: left;
+
+  }
+
+  .nav {
+
+    height: 100px;
+
+  }
+
+  .links p:nth-child(2) {
+
+    margin-top: -65px;
+
+  }
+
+  .links {
+
+    border-bottom: 8px;
+
+    float: right;
+
+    font-size: 45px;
+
+    margin-top: -60px;
+
+  }
+
+  .heading {
+
+    margin: 20px;
+
+  }
+
+  #text {
+
+    font-size: 70px;
+
+  }
+
+}
