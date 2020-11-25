@@ -1,74 +1,83 @@
 <!DOCTYPE html>
 <html style="height: 100%; overflow: hidden;">
-  <head>
-      <link rel="stylesheet" href="style/style.css">
-  </head>
-  <body style="height: 100%; margin: 0">
-    
-<div class="bg-image"></div>
 
-<div class="bg-text">
-  <h2></h2>
-  <h1 style="font-size:30px">The Health Subsidiary</h1>
-  <p></p>
-</div>
-  
-    <iframe id="myWidget" 
-          src="https://human.biodigital.com/widget/?m=cochlear_implant&dk=fad0a1021ea3dd14a22d09e9634e0c2d95c18681">
-    </iframe>
-    <style type="text/css" media="all">
-body, html {
-  height: 100%;
-}
-* {
-  box-sizing: border-box;
-}
-#myWidget{
-  margin: 45px;
-  height: 90vh;
-  width: 900px;
-  transform: translate(-51%, -50%);
-  z-index: 2;
-  position: absolute;
-  top: 55%;
-  margin-left: 500px;
-  text-align: center;
-      }
-.bg-image {
-  /* The image used */
-  background-image: url("https://images.unsplash.com/photo-1560582861-45078880e48e?ixlib=rb-1.2.1&auto=format&fit=crop&w=934&q=80");
+<head>
+  <link rel="stylesheet" href="style/style.css">
+</head>
 
-  /* Add the blur effect */
-  filter: blur(8px);
-  -webkit-filter: blur(8px);
+<body style="height: 100%; margin: 0">
+  <div class="bg-image"></div>
+  <div class="bg-text">
+    <h2></h2>
+    <h1 style="font-size:30px">The Health Subsidiary</h1>
+    <p></p>
+  </div>
+  <iframe id="myWidget" src="https://human.biodigital.com/widget/?m=cochlear_implant&dk=fad0a1021ea3dd14a22d09e9634e0c2d95c18681">
+  </iframe>
+  <iframe class="cell" width="98%" height="400" src="https://www.tinkercad.com/embed/4ikNz5hdGbk" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"></iframe>
+  <style type="text/css" media="all">
+    body,
+    html {
+      height: 100%;
+    }
 
-  /* Full height */
-  height: 100%;
+    * {
+      box-sizing: border-box;
+    }
+    .cell{
+      border: 5px solid #5D34EB;
+      margin-top: 20px;
+    }
+    #myWidget {
+      margin: 45px;
+      height: 90vh;
+      width: 900px;
+      transform: translate(-51%, -50%);
+      z-index: 2;
+      position: absolute;
+      top: 55%;
+      margin-left: 500px;
+      text-align: center;
+    }
 
-  /* Center and scale the image nicely */
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
+    .bg-image {
+      /* The image used */
+      background-image: url("https://images.unsplash.com/photo-1560582861-45078880e48e?ixlib=rb-1.2.1&auto=format&fit=crop&w=934&q=80");
 
-/* Position text in the middle of the page/image */
-.bg-text {
-  background-color: rgb(0,0,0); /* Fallback color */
-  background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
-  color: white;
-  font-weight: bold;
-  border: 3px solid #f1f1f1;
-  position: absolute;
-  top: 5%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  z-index: 2;
-  width: 80%;
-  padding: 20px;
-  text-align: center;
-}
-    </style>
-    <script src="https://developer.biodigital.com/builds/api/2/human-api.min.js"></script>
-    <script src="main.js" type="text/javascript" charset="utf-8"></script>
-  </body>
+      /* Add the blur effect */
+      filter: blur(8px);
+      -webkit-filter: blur(8px);
+
+      /* Full height */
+      height: 100%;
+
+      /* Center and scale the image nicely */
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+
+    /* Position text in the middle of the page/image */
+    .bg-text {
+      background-color: rgb(0, 0, 0);
+      /* Fallback color */
+      background-color: rgba(0, 0, 0, 0.4);
+      /* Black w/opacity/see-through */
+      color: white;
+      font-weight: bold;
+      border: 3px solid #f1f1f1;
+      position: absolute;
+      top: 5%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      z-index: 2;
+      width: 80%;
+      padding: 20px;
+      text-align: center;
+    }
+  </style>
+  <script src="https://developer.biodigital.com/builds/api/2/human-api.min.js"></script>
+  <script src="main.js" type="text/javascript" charset="utf-8"></script>
+</body>
+
 </html>
